@@ -25,11 +25,4 @@ iris-api/
 
 ---
 
-## 🛠 Installation
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/iris-api.git
-cd iris-api
-
-cd iris-api
