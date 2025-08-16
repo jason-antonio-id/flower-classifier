@@ -1,19 +1,33 @@
 # 🌸 Iris Flower Classifier API
 
 A simple **FastAPI-based API** that predicts the type of Iris flower  
-(`setosa`, `versicolor`, `virginica`) based on sepal and petal measurements.  
+(**setosa**, **versicolor**, **virginica**) based on sepal and petal measurements.
 
-This is built using **scikit-learn** with the famous Iris dataset.
+This project uses **scikit-learn** and the classic **Iris dataset**.
 
 ---
 
 ## 🚀 Features
-- ⚡ Built with **FastAPI** (auto API docs at `/docs`)
-- 🤖 Machine Learning model trained with **scikit-learn**
+- ⚡ FastAPI backend (auto-generated docs at `/docs`)
+- 🤖 ML model trained on the Iris dataset (scikit-learn)
 - 📡 JSON REST API for easy integration
-- 🔍 Returns **predicted species** and **confidence score**
+- 📈 Returns **predicted species** and **confidence score**
 
 ---
 
 ## 📂 Project Structure
+iris-api/  
+│-- app.py # FastAPI app (API endpoints)  
+│-- main.py # Entry point to run the API  
+│-- model.pkl # Trained ML model (Iris dataset) - optional  
+│-- requirements.txt # Dependencies  
+│-- README.md # Project documentation  
 
+---
+
+## 🛠 Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/iris-api.git
+cd iris-api
